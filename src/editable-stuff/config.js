@@ -15,10 +15,10 @@ const mainBody = {
       image: "fa-github",
       url: "https://github.com/iamayushtiwari",
     },
-    // {
-    //   image: "fa-facebook",
-    //   url: "",
-    // },
+    {
+      image: "fa-instagram",
+      url: "https://www.instagram.com/iam_ayushtiwari/",
+    },
     
     {
       image: "fa-linkedin",
@@ -101,10 +101,12 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Data Structures", value: 85 },
+    { name: "React.js", value: 65 },
     { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "Node.js", value: 65 },
     { name: "HTML/CSS", value: 55 },
+    { name: "Data Structures Algorithm with Java", value: 85 },
+    
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -134,7 +136,7 @@ const experiences = {
     {
       role: 'Software Engineer',// Here Add Company Name
       companylogo: require('../assets/img/Capgemini_logo.png'),
-      date: 'JOct 2021 – Present',
+      date: 'Oct 2021 – Present',
     },
     {
       role: 'IOS Developer',
