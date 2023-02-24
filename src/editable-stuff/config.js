@@ -105,7 +105,7 @@ const skills = {
     { name: "JavaScript", value: 90 },
     { name: "Node.js", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "Data Structures Algorithm with Java", value: 85 },
+    { name: "Data Structures & Algorithm with Java", value: 85 },
     
   ],
   softSkills: [
