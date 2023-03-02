@@ -55,7 +55,7 @@ const about = {
   imageLink: require("../editable-stuff/ayushtiwari.png"),
   imageSize: 375,
   message:
-    "I am a MERN Full Stack Developer with expertise in HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, MongoDB, and Git. I excel in front-end development using React and Redux to create engaging and responsive user interfaces. On the backend, I design and implement robust REST APIs using Node.js and Express, as well as relational and NoSQL databases. Additionally, I am well-versed in other technologies such as Java, MySQL, Swift, REST API, JWT, and object-oriented programming. I am committed to delivering high-quality, efficient, and scalable web applications that meet the needs of clients and users.",
+    "I am a MERN Full Stack Developer with expertise in HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, MongoDB, and Git. I excel in front-end development using React and Redux to create engaging and responsive user interfaces. On the backend, I design and implement robust REST APIs using Node.js and Express, as well as relational and NoSQL databases. Additionally, I am well-versed in other technologies such as Java, NoSQL database systems like MongoDB, Swift, REST API, JWT, and object-oriented programming. I am committed to delivering high-quality, efficient, and scalable web applications that meet the needs of clients and users.",
   resume: "https://drive.google.com/file/d/1ZXqJ3jGsZzJRTxoMMBBsV6zmGylvzDqq/view?usp=sharing",
 };
 
@@ -101,6 +101,7 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: "MERN", value: 65 },
     { name: "React.js", value: 65 },
     { name: "JavaScript", value: 90 },
     { name: "Node.js", value: 65 },
