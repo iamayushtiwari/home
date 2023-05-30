@@ -55,7 +55,7 @@ const about = {
   imageLink: require("../editable-stuff/ayushtiwari.png"),
   imageSize: 375,
   message:
-    "I am a MERN Full Stack Developer with expertise in HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, MongoDB, and Git. I excel in front-end development using React and Redux to create engaging and responsive user interfaces. On the backend, I design and implement robust REST APIs using Node.js and Express, as well as relational and NoSQL databases. Additionally, I am well-versed in other technologies such as Java, NoSQL database systems like MongoDB, Swift, REST API, JWT, and object-oriented programming. I am committed to delivering high-quality, efficient, and scalable web applications that meet the needs of clients and users.",
+    "I am a Node.js Backend Developer with expertise in Node.js, JavaScript, Express.js, MongoDB, HTML5, CSS3, and Git. On the backend, I design and implement robust REST APIs using Node.js and Express, as well as relational and NoSQL databases. Additionally, I am well-versed in other technologies such as Java, NoSQL database systems like MongoDB, Swift, REST API, JWT, and object-oriented programming. I am committed to delivering high-quality, efficient, and scalable web applications that meet the needs of clients and users.",
   resume: "https://drive.google.com/file/d/1ObTgzAf38_CfCbTTh3vL7fwcdM4IWvT5/view?usp=sharing",
 };
 
@@ -101,10 +101,10 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "MERN", value: 65 },
-    { name: "React.js", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "Node.js", value: 65 },
+    { name: "Node.js", value: 75 },
+    { name: "JavaScript", value: 50 },
+    { name: "MERN", value: 50 },
+    { name: "Git", value: 85 },
     { name: "HTML/CSS", value: 55 },
     { name: "Data Structures & Algorithm with Java", value: 85 },
     
@@ -126,7 +126,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time FullStack opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "I'm currently looking for full-time Node.js Backend opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
   email: "ayushtiwari81197@gmail.com",
 };
 
