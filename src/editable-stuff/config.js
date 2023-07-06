@@ -56,7 +56,7 @@ const about = {
   imageSize: 375,
   message:
     "I am a Node.js Backend Developer with expertise in Node.js, JavaScript, Express.js, MongoDB, HTML5, CSS3, and Git. On the backend, I design and implement robust REST APIs using Node.js and Express, as well as relational and NoSQL databases. Additionally, I am well-versed in other technologies such as Java, NoSQL database systems like MongoDB, Swift, REST API, JWT, and object-oriented programming. I am committed to delivering high-quality, efficient, and scalable web applications that meet the needs of clients and users.",
-  resume: "https://drive.google.com/file/d/1mvXpdC6N1dwIOQqVhUfyQWTnD2kdMNot/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1CjlaD6eOkH6WyQqxA1lmLEhZB9ZRs0Xn/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -74,20 +74,25 @@ const repos = {
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "CERTIFICATES",
   message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+    "By featuring my Coding Ninjas certificates in the dedicated section of my portfolio website,I proudly demonstrate my proven proficiency in Node.js, Express.js, and JavaScript. These essential skills empower me to develop exceptional web solutions that are characterized by their superior quality, scalability, and performance. With this expertise, I am well-equipped to deliver outstanding outcomes for clients and projects alike, ensuring optimal satisfaction and success.",
   images: [
     { 
-      img: require("../editable-stuff/ayushtiwari.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("./backendExcellence.png"), 
+      label: "", 
+      paragraph: "" 
     },
     { 
-      img: require("../editable-stuff/ayushtiwari.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+      img: require("./backendCompletion.png"), 
+      label: "", 
+      paragraph: "" 
+    },
+    { 
+      img: require("./frontendCompletion.png"), 
+      label: "", 
+      paragraph: "" 
     },
   ],
   imageSize: {
@@ -137,12 +142,12 @@ const experiences = {
     {
       role: 'Software Engineer',// Here Add Company Name
       companylogo: require('../assets/img/Capgemini_logo.png'),
-      date: 'Oct 2021 – Present',
+      date: 'Oct 2021 – May 2023',
     },
     {
       role: 'IOS Developer',
       companylogo: require('../assets/img/cliffex-dark-logo.png'),
-      date: 'April 2021 – Oct 2021',
+      date: 'Nov 2020 – Oct 2021',
     },
   ]
 }
