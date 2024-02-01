@@ -19,7 +19,7 @@ const mainBody = {
       image: "fa-instagram",
       url: "https://www.instagram.com/iam_ayushtiwari/",
     },
-    
+
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/iamayushtiwari/",
@@ -60,9 +60,9 @@ const about = {
 };
 
 // PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+// Setting up project length will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
 //      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
+// If you want to display specific projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
@@ -79,25 +79,25 @@ const leadership = {
   message:
     "By featuring my Coding Ninjas certificates in the dedicated section of my portfolio website,I proudly demonstrate my proven proficiency in Node.js, Express.js, and JavaScript. These essential skills empower me to develop exceptional web solutions that are characterized by their superior quality, scalability, and performance. With this expertise, I am well-equipped to deliver outstanding outcomes for clients and projects alike, ensuring optimal satisfaction and success.",
   images: [
-    { 
-      img: require("./backendExcellence.png"), 
-      label: "", 
-      paragraph: "" 
+    {
+      img: require("./backendExcellence.png"),
+      label: "",
+      paragraph: ""
     },
-    { 
-      img: require("./backendCompletion.png"), 
-      label: "", 
-      paragraph: "" 
+    {
+      img: require("./backendCompletion.png"),
+      label: "",
+      paragraph: ""
     },
-    { 
-      img: require("./frontendCompletion.png"), 
-      label: "", 
-      paragraph: "" 
+    {
+      img: require("./frontendCompletion.png"),
+      label: "",
+      paragraph: ""
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
+    width: "615",
+    height: "450"
   }
 };
 
@@ -112,7 +112,7 @@ const skills = {
     { name: "Git", value: 85 },
     { name: "HTML/CSS", value: 55 },
     { name: "Data Structures & Algorithm with Java", value: 85 },
-    
+
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -139,6 +139,11 @@ const experiences = {
   show: true,
   heading: "Experiences",
   data: [
+    {
+      role: 'Software Engineer - Node js Developer',// Here Add Company Name
+      companylogo: require('../assets/img/Staqo-logo.png'),
+      date: 'Aug 2023 – present',
+    },
     {
       role: 'Software Engineer',// Here Add Company Name
       companylogo: require('../assets/img/Capgemini_logo.png'),
