@@ -106,8 +106,10 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
+    { name: "Backend", value: 90 },
     { name: "Node.js", value: 75 },
     { name: "JavaScript", value: 50 },
+    { name: "SERN", value: 50 },
     { name: "MERN", value: 50 },
     { name: "Git", value: 85 },
     { name: "HTML/CSS", value: 55 },
@@ -145,7 +147,7 @@ const experiences = {
       date: 'Aug 2023 – present',
     },
     {
-      role: 'Software Engineer',// Here Add Company Name
+      role: 'Software Engineer - Node js Developer',// Here Add Company Name
       companylogo: require('../assets/img/Capgemini_logo.png'),
       date: 'Oct 2021 – May 2023',
     },
@@ -158,8 +160,8 @@ const experiences = {
 }
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+const blog = {
+  show: false,
+};
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, blog };
