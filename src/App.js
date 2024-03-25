@@ -37,14 +37,14 @@ const Home = React.forwardRef((props, ref) => {
         <AboutMe
           heading={about.heading}
           message={about.message}
-          link={about.imageLink}
-          imgSize={about.imageSize}
+          link={about.linkedinImgUrl || about.imageLink}
+          imgSize={about.linkedinImgUrl || about.imageSize}
           resume={about.resume}
         />
       )}
       {
         experiences.show && (
-          <Experience experiences={experiences}/>
+          <Experience experiences={experiences} />
         )
       }
       {repos.show && (
@@ -70,7 +70,7 @@ const Home = React.forwardRef((props, ref) => {
           softSkills={skills.softSkills}
         />
       )}
-      
+
     </>
   );
 });

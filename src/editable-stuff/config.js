@@ -53,6 +53,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/ayushtiwari.png"),
+  linkedinImgUrl: "https://media.licdn.com/dms/image/D5635AQGo-Orj0rRZ2Q/profile-framedphoto-shrink_400_400/0/1711340913568?e=1711947600&v=beta&t=34Ozdn3PyrGDTeDdE07r_x4XLZlzf6B_iZSmooRpWeY",
   imageSize: 375,
   message:
     "I am a Node.js Backend Developer with expertise in Node.js, JavaScript, Express.js, MongoDB, HTML5, CSS3, and Git. On the backend, I design and implement robust REST APIs using Node.js and Express, as well as relational and NoSQL databases. Additionally, I am well-versed in other technologies such as Java, NoSQL database systems like MongoDB, Swift, REST API, JWT, and object-oriented programming. I am committed to delivering high-quality, efficient, and scalable web applications that meet the needs of clients and users.",
