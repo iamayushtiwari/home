@@ -56,8 +56,8 @@ const about = {
   linkedinImgUrl: '',
   imageSize: 375,
   message:
-    "I am a Node.js Backend Developer with expertise in Node.js, JavaScript, Express.js, MongoDB, HTML5, CSS3, and Git. On the backend, I design and implement robust REST APIs using Node.js and Express, as well as relational and NoSQL databases. Additionally, I am well-versed in other technologies such as Java, NoSQL database systems like MongoDB, Swift, REST API, JWT, and object-oriented programming. I am committed to delivering high-quality, efficient, and scalable web applications that meet the needs of clients and users.",
-  resume: "https://drive.google.com/file/d/1-dLiKo5JO0nF48WSBcfAadOC0TcYCCR8/view?usp=sharing",
+    "Dynamic and detail-oriented Node.js Developer with over 3 years of experience in backend development, specializing in building scalable and efficient applications. Proficient in Node.js, MongoDB, and Express.js, with a strong focus on application performance optimization, system scalability, and security audits. Proven track record of implementing secure coding practices and conducting thorough vulnerability assessments to enhance application integrity and compliance with industry standards. Adept at collaborating with cross-functional teams to support key business objectives and deliver robust backend solutions. Seeking to leverage expertise in Node.js and microservices architecture to contribute to innovative projects in a challenging environment.",
+  resume: "https://drive.google.com/file/d/1mIBMoICi3CMwCZy7mCRhVTK9fwGmHNZH/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -144,18 +144,18 @@ const experiences = {
   data: [
     {
       role: 'Software Engineer - Node js Developer',// Here Add Company Name
+      companylogo: require('../assets/img/Radiant.jpg'),
+      date: 'Jun 2024 – present',
+    },
+    {
+      role: 'Software Engineer - Node js Developer',// Here Add Company Name
       companylogo: require('../assets/img/Staqo-logo.png'),
-      date: 'Aug 2023 – present',
+      date: 'Aug 2023 – Jun 2024',
     },
     {
       role: 'Software Engineer - Node js Developer',// Here Add Company Name
       companylogo: require('../assets/img/Capgemini_logo.png'),
       date: 'Oct 2021 – May 2023',
-    },
-    {
-      role: 'IOS Developer',
-      companylogo: require('../assets/img/cliffex-dark-logo.png'),
-      date: 'Nov 2020 – Oct 2021',
     },
   ]
 }
